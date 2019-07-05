@@ -1,0 +1,44 @@
+This project contain a selfmade ls
+
+Exemple using :
+
+./my_ls include
+my_ls.h
+
+./my_ls
+Makefile
+my_ls
+src
+include
+
+./my_ls -R
+.:
+Makefile
+my_ls
+src
+include
+
+./src:
+display_dash_t.o
+display_dash_bigr.c
+display_one_argument.c
+lib.c
+display_dash_bigr.o
+check_argv.o
+lib.o
+display_dash_r.c
+str_compare.o
+display_dash_l.c
+display_dash_t.c
+display_one_argument.o
+display_few_argument.o
+display_dash_l.o
+my_ls.c
+str_compare.c
+display_few_argument.c
+display_dash_r.o
+my_ls.o
+check_argv.c
+
+./include:
+my_ls.h
